@@ -1,0 +1,99 @@
+.banner {
+  padding: 24px 0 206px;
+  background: #f5f5f7 url("../img/bg-mob.jpg") bottom/320px no-repeat;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-title {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.banner-subtitle {
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+.banner-timer {
+  margin-bottom: 36px;
+}
+
+.banner-btn {
+  border: 1px solid #70a5d5;
+  border-radius: 32px;
+  padding: 16px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.banner-btn:hover {
+  background-color: #FFF;
+}
+.banner-btn:focus {
+  background-color: #2238FF;
+  color: #fff;
+}
+
+.banner-btn:active {
+  background-color: #2238FF;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    padding: 60px 0 90px;
+    background-image: url("../img/bg-tab.jpg");
+    background-position: bottom;
+    background-size: contain;
+  }
+
+  .banner-content {
+    max-width: 331px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner {
+    padding: 120px 0 160px;
+    background-image: url("../img/bg-laptop.jpg");
+    margin-bottom: 70px;
+  }
+
+  .banner-content {
+    max-width: 510px;
+  }
+
+  .banner-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .banner-subtitle {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .banner-timer {
+    margin-bottom: 56px;
+  }
+
+  .banner-btn {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner {
+    background-image: url("../img/bg.jpg");
+  }
+}
